@@ -1,0 +1,56 @@
+/*Tuodaan sovelluksessa käytettävä fontti. */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+ /* Main luokan tyylimäärittely*/
+.Main {
+  margin: auto;
+  padding: 0;
+  max-width: 30em;
+  position: relative;
+  color: #e3e3e3;
+
+  background-image: url('background.jpg'); /*taustakuvan lisäys*/
+  background-position: 50% 50%; /*taustakuvan asettelumääritys*/
+  font-style: italic; /*fontin tyllimäärittely*/
+  font-family: 'Pangolin' , cursive;
+  font-size:  large; /*fontin koko*/
+  text-align: center; /*tekstin keskitys*/
+   
+}
+
+.Header {
+  max-height: 2em; /*otsikkokomponentin minimi ja maksimikorkeus*/
+  min-height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7dc9e3;
+  border-radius: 2px;
+  color: #000000
+  
+}
+
+.HeaderIcon { /*otsikkoikonin sijoitusmäärittely*/
+  position: relative;
+  left: 20px;
+}
+
+.Bottom {
+  max-height: 2em;
+  min-height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1dab98;
+  border-radius: 2px;
+  color: #000000
+}
+a:link { /*Annetaan linkkien väri */
+  color:#ffffff;
+}
+a:visited { /*Annetaan väri linkeille, joita on klikattu*/
+  color: #34eb9b
+}
+a:hover { /*Annetaan väri linkille, kun hiiren osoitin on sen päällä*/
+  color: #34ebd8
+}
